@@ -84,6 +84,8 @@
     width: 40vw;
     max-width: 100%;
     min-width: 300px;
+    box-shadow: 0 0 10px rgba(158, 85, 171, 0.436);
+    border-radius: 20px;
   }  
   @keyframes blink {
     from { opacity: 1}
