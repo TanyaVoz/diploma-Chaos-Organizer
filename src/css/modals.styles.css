@@ -15,8 +15,9 @@
     max-width: 400px;
     padding: 10px;
     box-sizing: border-box;
-    border: 2px solid #8544d571;
- 
+    
+    box-shadow: 0 0 10px rgba(158, 85, 171, 0.436);
+    border-radius: 20px;
     background-color: #FFFFFF;
   }  
   .form-title {
