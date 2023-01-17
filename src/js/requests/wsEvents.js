@@ -143,14 +143,14 @@ export default class WSEvents {
   onWSClose(manager) {
     manager.ws = null;
 
-   // document.querySelector('.connection_status').textContent = 'Оффлайн';
-   // document.querySelector('.organizer_header').classList.remove('status_online');
+    // document.querySelector('.connection_status').textContent = 'Оффлайн';
+    // document.querySelector('.organizer_header').classList.remove('status_online');
     this.restoreConnection();
   }
 
   restoreConnection() {
     this.intervalId = setInterval(() => {
-      //this.manager.initWSConnection();
+      // this.manager.initWSConnection();
     }, 60000);
   }
 

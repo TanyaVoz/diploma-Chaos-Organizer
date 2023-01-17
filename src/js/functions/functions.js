@@ -86,7 +86,7 @@ export function createRecordTask(manager, Task, data) {
     newTask.init(manager.tasksBoxEl, manager.buffer);
     scrollBoxUp(manager.tasksBoxEl);
     updateStates(manager, 'newTask', newTask);
-   // manager.buffer.state.timeLastStamp = newTask.timestamp;
+    // manager.buffer.state.timeLastStamp = newTask.timestamp;
   });
 }
 
